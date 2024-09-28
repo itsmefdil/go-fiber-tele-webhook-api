@@ -61,6 +61,12 @@ URL : http://localhost:3000/bots/:id
 
 5. Send a message to a chat
 Method : POST
+URL : http://localhost:3000/webhook/:id/send
+```
+{
+    "message": "your_message",
+}
+```
 
 
 ### Technologies
