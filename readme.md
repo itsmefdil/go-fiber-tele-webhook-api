@@ -27,9 +27,11 @@ go run main.go
 
 ### API Endpoints
 1. Create a bot
-params: 
+
 Method : POST
+
 URL : http://localhost:3000/bots
+
 ```
 {
     "token": "your_token",
@@ -39,13 +41,16 @@ URL : http://localhost:3000/bots
 
 ```
 2. Get all bots
+
 Method : GET
 
 ```
 curl -X GET "http://localhost:3000/bots"
 ```
 3. Update a bot
+
 Method : PUT
+
 URL : http://localhost:3000/bots/:id
 ```
 {
@@ -56,7 +61,9 @@ URL : http://localhost:3000/bots/:id
 ```
 
 4. Delete a bot
+
 Method : DELETE
+
 URL : http://localhost:3000/bots/:id
 
 5. Send a message to a chat
