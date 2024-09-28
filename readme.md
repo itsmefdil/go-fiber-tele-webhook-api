@@ -24,6 +24,11 @@ go mod tidy
 go run main.go
 ```
 
+### Run with Docker
+```
+docker-compose up
+```
+
 
 ### API Endpoints
 1. Create a bot
